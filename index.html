@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>姓名 (Your Name) | Climate & AI Researcher</title>
+    <title>Chaoyang Xie | Climate & AI Researcher</title>
     <style>
-        /* 极简主义学术风格 CSS */
+        /* Minimalist Academic Style */
         :root {
             --primary-color: #2c3e50;
-            --accent-color: #2980b9;
+            --accent-color: #0065BD; /* TUM Blue */
             --bg-color: #ffffff;
             --text-color: #333333;
             --light-gray: #f4f4f4;
@@ -36,13 +36,7 @@
         .bio-info { color: #666; font-style: italic; }
         .social-links a { margin-right: 15px; font-weight: bold; }
         
-        .publication-item, .project-item {
-            margin-bottom: 20px;
-        }
-        .pub-title { font-weight: bold; display: block; }
-        .pub-authors { font-size: 0.9rem; color: #555; }
-        .pub-conf { font-size: 0.9rem; color: #888; font-style: italic; }
-        
+        .project-item { margin-bottom: 25px; }
         .tag {
             display: inline-block;
             background: var(--light-gray);
@@ -52,81 +46,73 @@
             color: #555;
             margin-right: 5px;
         }
+        ul.interests { padding-left: 20px; }
+        ul.interests li { margin-bottom: 10px; }
+        
         footer { margin-top: 60px; font-size: 0.8rem; color: #999; text-align: center; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>姓名 (Your Name)</h1>
-        <p class="bio-info">Climate & AI Researcher / PhD Candidate / Data Scientist</p>
+        <h1>Chaoyang Xie</h1>
+        <p class="bio-info">Graduate Researcher @ Technical University of Munich (TUM)</p>
         <div class="social-links">
-            <a href="mailto:your.email@example.com">Email</a>
-            <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-            <a href="https://twitter.com" target="_blank">Twitter / X</a>
+            <a href="mailto:xiechy22@gmail.com">Email</a>
+            <a href="https://github.com/xiechy" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
         </div>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            我是 [机构名称] 的研究员。我的研究主要集中在利用人工智能技术解决气候变化挑战。
-            特别关注利用<b>深度学习进行气候建模</b>、<b>极端天气预测</b>以及<b>遥感数据分析</b>。
+            I am currently a researcher at the <strong>Technical University of Munich (TUM)</strong>. 
+            My research interests lie at the intersection of <strong>Climate Science</strong> and <strong>Artificial Intelligence</strong>.
         </p>
         <p>
-            目前，我正在致力于开发基于 Transformer 的全球气温预测模型。
+            I am passionate about leveraging deep learning techniques to address climate change challenges, 
+            with a specific focus on extreme weather prediction and climate data analysis.
         </p>
     </section>
 
-    <section id="news">
-        <h2>News</h2>
-        <ul>
-            <li><strong>2025-10:</strong> 论文被 NeurIPS 2025 接收。</li>
-            <li><strong>2025-06:</strong> 开始在 [某实验室] 进行访问研究。</li>
+    <section id="interests">
+        <h2>Research Interests</h2>
+        <ul class="interests">
+            <li><strong>AI for Earth Science:</strong> Applying Transformer-based models to atmospheric data.</li>
+            <li><strong>Climate Modeling:</strong> Improving the accuracy of global precipitation forecasts.</li>
+            <li><strong>Computer Vision:</strong> Remote sensing and satellite image analysis.</li>
         </ul>
-    </section>
-
-    <section id="publications">
-        <h2>Selected Publications</h2>
-        
-        <div class="publication-item">
-            <span class="pub-title">Deep Learning for Extreme Weather Event Detection</span>
-            <div class="pub-authors"><strong>Your Name</strong>, Co-author A, Co-author B</div>
-            <div class="pub-conf">ICLR 2025 (Oral)</div>
-            <div>
-                <a href="#">[PDF]</a> <a href="#">[Code]</a>
-            </div>
-        </div>
-
-        <div class="publication-item">
-            <span class="pub-title">Benchmarking Climate Models with AI</span>
-            <div class="pub-authors">Co-author C, <strong>Your Name</strong></div>
-            <div class="pub-conf">Nature Climate Change (Under Review)</div>
-            <div>
-                <a href="#">[Preprint]</a>
-            </div>
-        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         
         <div class="project-item">
-            <h3>ClimateNet-Sim</h3>
-            <p>一个用于气候模拟的高性能 Python 库，集成了多种机器学习基准测试。</p>
+            <h3>Climate-AI Tools</h3>
+            <p>A collection of Python scripts for processing meteorological datasets (ERA5, CMIP6).</p>
             <div>
                 <span class="tag">Python</span>
-                <span class="tag">PyTorch</span>
-                <span class="tag">Climate Modeling</span>
+                <span class="tag">Data Analysis</span>
             </div>
             <br>
-            <a href="#">View on GitHub &rarr;</a>
+            <a href="https://github.com/xiechy">View on GitHub &rarr;</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Deep Learning Sandbox</h3>
+            <p>Implementations of various neural network architectures for time-series forecasting.</p>
+            <div>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Time Series</span>
+            </div>
+            <br>
+            <a href="https://github.com/xiechy">View on GitHub &rarr;</a>
         </div>
     </section>
 
     <footer>
-        &copy; 2025 Your Name. Powered by GitHub Pages.
+        &copy; 2025 Chaoyang Xie. Powered by GitHub Pages.
     </footer>
 
 </body>
